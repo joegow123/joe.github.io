@@ -1,0 +1,207 @@
+#welcome-banner {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
+.banner {
+    background-image: url("https://i.pinimg.com/originals/c4/de/e6/c4dee6bc172cb47d34eee29dec20d6d1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 120px;
+    text-align: center;
+    border: 3px solid #ffffff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-position: center;
+    background-size: 100px 100px;
+    background-color: rgb(94, 210, 113);
+    opacity: 0.5;
+    width: 200px;
+    margin: -11px auto;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.banner:hover {
+opacity: 1;
+color: rgb(255, 255, 255);
+font-size: 16px ;
+cursor: pointer;
+background-color: rgb(116, 255, 139);
+text-shadow: 3px 3px 2px #000000;
+}
+
+.links {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 300px;
+    color: bisque;
+    top: 120px;
+    width: 350px;
+    padding: 20px;
+    font-size: 15px;
+    margin: 25px auto 10px auto;
+    text-decoration: none;
+    font-weight: 800;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 255, 234);
+}
+
+ a:hover {
+    color: rgb(0, 160, 0);
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+a:link {
+    color: rgb(135, 0, 0);
+}
+
+a:visited {
+    color: green;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 1px;
+    padding: 0px 200px;
+    padding-bottom: -10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    width: 300px;
+    top: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#wimage:hover {
+    opacity: 0.4;
+}
+
+.body {
+    background: rgb(50,50,50);
+    background: linear-gradient(124deg, rgb(140, 111, 111) 0%, rgba(0,0,0,1) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.header {
+    font-family: 'myFirstFont', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 5px;
+    padding: 300px;
+    width: 300px;
+    top: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#welcome-text:hover {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    cursor: default;
+}
+
+
+.content-other {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 1px;
+    padding: 20px 200px;
+    width: 700px;
+    top: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.images {
+    padding: 100px 150px;
+    margin: auto 248.500px;
+    width: 2px;
+    height: auto;
+}
+
+
+.footer {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 10px;
+    padding: 0px 200px;
+    padding-bottom: -10px;
+    border: 3px solid rgb(55, 55, 55);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgb(26, 26, 26);
+    letter-spacing: 0.05px;
+    margin: 10px auto -10px;
+    overflow: hidden;
+}
+
+#jstest {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: rgb(35, 35, 35);
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(255, 238, 0);
+    border: double rgb(255, 238, 0);
+    border-radius: 12px;
+}
+#thebutton {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: auto 1250px;
+    width: auto;
+    font-weight: 600;
+}
+
+#togglebutton {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 24px;
+    border: solid white;
+    border-radius: 12px;
+    background-color: white;
+    margin: 10px 999px 10px 1200px;
+    width: auto;
+    font-weight: 600;
+}
+
+#togglebutton:hover {
+    cursor: pointer;
+}
